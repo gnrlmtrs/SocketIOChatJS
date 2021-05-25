@@ -1,0 +1,91 @@
+.inbox__people {
+
+}
+
+.inbox__messages{
+    margin-left: 400px;
+    display: flex;
+}
+
+.message_form__input {
+    width: 394px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.sent__message{
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    border: 0px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    width: 500px;
+    z-index: 1;
+    flex-direction: column;
+    margin-left: 441px;
+    background-color: #7fff004a;
+
+}
+
+.received__message{
+    border: 0 solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    width: 600px;
+    padding: 5px;
+    background-color: #17b6d029;
+}
+
+.fallback{
+    position: relative;
+    z-index: 2;
+}
+.message__info {
+    display:flex;
+    position: relative;
+    z-index: 0;
+    flex-direction: column;
+
+
+}
+
+.time_date{
+    margin-left: 400px;
+    font-size: 10px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.message__author{
+    font-size: 10px;
+}
+
+.message_form__button{
+    display: flex;
+    alignment: center;
+    width: 150px;
+    margin-left: 250px;
+    align-items: center;
+    align-content: center;
+    vertical-align: center;
+    height: 30px;
+}
+.inbox {
+    width:400px;
+    height: 300px;
+    background-color: lightgrey;
+
+
+
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: normal;
+}
